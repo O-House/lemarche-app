@@ -1,0 +1,25 @@
+.Title {
+	width: fit-content;
+	padding: 0;
+	margin: 0;
+
+	&--small {
+		font-size: 32px;
+	}
+
+	&--medium {
+		font-size: 42px;
+	}
+
+	&--large {
+		font-size: 64px;
+	}
+
+	&--bold {
+		font-weight: bold;
+	}
+
+	&--italic {
+		font-style: italic;
+	}
+}
