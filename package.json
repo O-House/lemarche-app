@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "run:dev": "NODE_ENV=dev webpack-dev-server --host 0.0.0.0 --mode development",
+    "run:dev": "webpack-dev-server --host 0.0.0.0 --mode development --env MODE=dev",
     "lint": "prettier --write '**/*.js' '**/*.jsx' '**/*.test.js' '**/*.ts' '**/*.tsx' '**/*.test.tsx' '**/*.scss' '**/*.html'",
     "test:all": "jest --coverage --verbose=true --config ./jest.config.json",
     "test:watch": "jest --watchAll --config ./jest.config.json",
