@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
-    "run:dev": "webpack-dev-server --host 0.0.0.0 --mode development",
+    "run:dev": "NODE_ENV=dev webpack-dev-server --host 0.0.0.0 --mode development",
     "lint": "prettier --write '**/*.js' '**/*.jsx' '**/*.test.js' '**/*.ts' '**/*.tsx' '**/*.test.tsx' '**/*.scss' '**/*.html'",
     "test:all": "jest --coverage --verbose=true --config ./jest.config.json",
     "test:watch": "jest --watchAll --config ./jest.config.json",
@@ -26,6 +26,7 @@
     "babel-loader": "^8.2.3",
     "classnames": "^2.3.1",
     "css-loader": "^6.5.1",
+    "dotenv-webpack": "^7.1.0",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.5.0",
     "identity-obj-proxy": "^3.0.0",
