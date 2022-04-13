@@ -1,12 +1,16 @@
-# react-setup
+# le-marche APP
 
-A frontend project boilerplate using [React](https://reactjs.org) :smiley:
+Sometimes sharing is better. You don't need to do market all by yourself.
+
+Le-march app focus on sharing lists between you and your mates,
+tracking your progress and avoiding redundancies.
 
 
-Code linting and testing setups ___ready to go___.
+## Instructions (___yarn___ or ___npm run___):
+- to setup and run the project just use **app:start**
+- use **app:stop** to stop project running
+- **test:all** to run tests at once
+- **test:watch** to keep tests running
+- **lint** to apply code styling patterns
 
-
-## Instructions:
-- **fork**/**clone** this repo
-- **yarn lint** (apply code styling)
-- **yarn test:all / yarn test:watch** (runs tests once / keeps tests running)
+e.g. **yarn app:start**
