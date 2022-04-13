@@ -3,6 +3,8 @@
   "version": "0.0.1",
   "main": "index.js",
   "scripts": {
+    "app:start": "docker-compose up -d",
+    "app:stop": "docker-compose down",
     "run:dev": "webpack-dev-server --host 0.0.0.0 --mode development --env MODE=dev",
     "lint": "prettier --write '**/*.js' '**/*.jsx' '**/*.test.js' '**/*.ts' '**/*.tsx' '**/*.test.tsx' '**/*.scss' '**/*.html'",
     "test:all": "jest --coverage --verbose=true --config ./jest.config.json",
